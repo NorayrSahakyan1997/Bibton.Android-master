@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#7d9390</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="phoneNumberShadow">#19FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+    <color name="pass_code_inactive">#800289BE</color>
+    <color name="pass_code_active">#26B99A</color>
+    <color name="rectangle_background_light">#29000000</color>
+    <color name="devider_color">#28989898</color>
+    <color name="wallet_background_color">#9CFFFEFE</color>
+    <color name="conver_edittext_background">#1A989898</color>
+    <color name="color_blue_text">#0086BF</color>
+    <color name="inactive_text_color_tab">#9EB4CA</color>
+    <color name="background_color">#232749</color>
+    <color name="circle_background_light">#F9F9F9</color>
+
+</resources>

@@ -1,0 +1,96 @@
+<resources>
+    <string name="app_name">Bibton</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="flexible_tranfering">Flexible Transferring \n\ Method</string>
+    <string name="skip">Next</string>
+    <string name="flexible">Flexible</string>
+    <string name="transferring">Transferring</string>
+    <string name="method">Method</string>
+    <string name="goToProfitableExchangeFragment">goToProfitableExchangeFragment</string>
+    <string name="profitable">Profitable</string>
+    <string name="exchange">Exchange</string>
+    <string name="rate">Rate</string>
+    <string name="modern">Modern</string>
+    <string name="user">User</string>
+    <string name="inter">Interface</string>
+    <string name="superr">Super</string>
+    <string name="system">System</string>
+    <string name="payment">Payment</string>
+    <string name="phoneNumber">Phone Number</string>
+    <string name="_00_00_00">00-00-00</string>
+
+    <string name="network_error_message">No internet connection</string>
+    <string name="default_error_message">Sorry something went wrong. Please try again later.</string>
+    <string name="network_error">No internet connection</string>
+    <string name="server_error">Sorry something went wrong.\nPlease try again later.</string>
+    <string name="searchCountry">Search country</string>
+    <string name="enterSixDigitCode">Enter the 6-digit code \n We\'ve sent it to +374-00-00-00</string>
+    <string name="createPassCode">Create a passcode for your \n Bibton account </string>
+    <string name="forget">Forget?</string>
+    <string name="warning">Warning</string>
+    <string name="writeNewPassword">Please write a new passcode</string>
+    <string name="ok">Ok</string>
+    <string name="service">Services</string>
+    <string name="pts">0 Pts</string>
+    <string name="details">Details</string>
+    <string name="wallet">Wallet</string>
+    <string name="balance">Balance :</string>
+    <string name="exChange">ExChange </string>
+    <string name="topUp">Top Up</string>
+    <string name="youDoNotHaveTransactions">You do not have any transactions yet!</string>
+    <string name="cancel">Cancel</string>
+    <string name="bankAccount">Bank Account</string>
+    <string name="show">Show</string>
+    <string name="active">Active</string>
+    <string name="statement">Statement</string>
+    <string name="rates">Rates</string>
+    <string name="local">Local</string>
+    <string name="swift">Swift</string>
+    <string name="donotforget">Don`t forget to enter this reference:</string>
+    <string name="beneficiary">Beneficiary</string>
+    <string name="bibtonLTD">Bibton LTD</string>
+    <string name="iban">IBAN</string>
+    <string name="am47">AM47 ARDSHIN 3080 1214 0888 68</string>
+    <string name="bic">BIC</string>
+    <string name="ardshin">ARDSHINAM2L</string>
+    <string name="beneficiaryAddress">Beneficiary address</string>
+    <string name="ardshinBank">Ardshin Bank</string>
+    <string name="bibtonLTDLevel">Bibton LTD, Level 00, Armenia, Yerevan, Arshakunyats 19</string>
+    <string name="intermediary">Intermediary or sender`s bank may charge you for international payments</string>
+    <string name="transferusually">Transfers usually take 1 to 3 working days to appear on your Spays account.</string>
+    <string name="onlySiwft">Only SWIFT transfers are accepted</string>
+    <string name="home">Home</string>
+    <string name="analytics">Analytics</string>
+    <string name="transfers">Transfers</string>
+    <string name="cards">Cards</string>
+    <string name="more">More</string>
+    <string name="gbpmain">GBP: Main</string>
+    <string name="from">From</string>
+    <string name="to">To</string>
+    <string name="spent">Spent</string>
+    <string name="restaurants">Restaurants</string>
+    <string-array name="menu_names_array">
+        <item>Summery</item>
+        <item>Payments</item>
+        <item>Exchange</item>
+        <item>Rates</item>
+        <item>Settings</item>
+        <item>Help</item>
+    </string-array>
+    <string-array name="service_names">
+        <item>NFC</item>
+        <item>QR</item>
+        <item>Utility</item>
+        <item>Rates</item>
+        <item>Bibton</item>
+
+
+    </string-array>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_scrolling2">ScrollingActivity2</string>
+
+
+</resources>

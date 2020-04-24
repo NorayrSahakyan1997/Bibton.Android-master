@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical">
+
+    <!--<ImageView-->
+    <!--android:id="@+id/backToInputPhoneNumberFragment"-->
+    <!--android:layout_width="25dp"-->
+    <!--android:layout_height="35dp"-->
+    <!--android:background="@drawable/back_button"-->
+    <!--android:paddingLeft="40dp"-->
+    <!--android:paddingRight="40dp"-->
+    <!--app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--app:layout_constraintEnd_toEndOf="parent"-->
+    <!--app:layout_constraintHorizontal_bias="0.05"-->
+    <!--app:layout_constraintStart_toStartOf="parent"-->
+    <!--app:layout_constraintTop_toTopOf="parent"-->
+    <!--app:layout_constraintVertical_bias="0.05" />-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_top_text_phone"
+        android:fontFamily="@font/noto_sans_light"
+        android:gravity="center"
+        android:text="@string/createPassCode"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/text_size_big"
+        android:layout_marginStart="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottie_animation_splash"
+        android:layout_width="126dp"
+        android:layout_height="70dp"
+        app:layout_constraintVertical_bias="0.25"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:lottie_fileName="third_step_coin.json" />
+
+
+    <ImageView
+        android:id="@+id/code_oval_1"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.2"
+        android:background="@drawable/shape_pass_code_oval_inactive"/>
+    <ImageView
+        android:id="@+id/code_oval_2"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.33"
+        android:background="@drawable/shape_pass_code_oval_inactive"/>
+    <ImageView
+        android:id="@+id/code_oval_3"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.46"
+        android:background="@drawable/shape_pass_code_oval_inactive"/>
+    <ImageView
+        android:id="@+id/code_oval_4"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.59"
+        android:background="@drawable/shape_pass_code_oval_inactive"/>
+    <ImageView
+        android:id="@+id/code_oval_5"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.72"
+        android:background="@drawable/shape_pass_code_oval_inactive"/>
+    <ImageView
+        android:id="@+id/code_oval_6"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.85"
+        android:background="@drawable/shape_pass_code_oval_inactive"/>
+
+    <TableLayout
+        android:id="@+id/table_layout_create_pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.9">
+
+        <TableRow style="@style/keyboard_row">
+
+            <TextView
+                android:id="@+id/t9_key_1"
+                style="@style/keyboard_number_button"
+                android:text="1" />
+
+            <TextView
+                android:id="@+id/t9_key_2"
+                style="@style/keyboard_number_button"
+                android:text="2" />
+
+            <TextView
+                android:id="@+id/t9_key_3"
+                style="@style/keyboard_number_button"
+                android:text="3" />
+        </TableRow>
+
+        <TableRow style="@style/keyboard_row">
+
+            <TextView
+                android:id="@+id/t9_key_4"
+                style="@style/keyboard_number_button"
+                android:text="4" />
+
+            <TextView
+                android:id="@+id/t9_key_5"
+                style="@style/keyboard_number_button"
+                android:text="5" />
+
+            <TextView
+                android:id="@+id/t9_key_6"
+                style="@style/keyboard_number_button"
+                android:text="6" />
+        </TableRow>
+
+        <TableRow style="@style/keyboard_row">
+
+            <TextView
+                android:id="@+id/t9_key_7"
+                style="@style/keyboard_number_button"
+                android:text="7" />
+
+            <TextView
+                android:id="@+id/t9_key_8"
+                style="@style/keyboard_number_button"
+                android:text="8" />
+
+            <TextView
+                android:id="@+id/t9_key_9"
+                style="@style/keyboard_number_button"
+                android:text="9" />
+        </TableRow>
+
+
+        <!--<TableRow>-->
+
+        <!--<TextView style="@style/keyboard_number_button"-->
+
+        <!--/>-->
+
+        <!--<TextView style="@style/keyboard_number_button" />-->
+
+        <!--<TextView-->
+        <!--android:layout_width="20dp"-->
+        <!--android:background="@drawable/delete_number_icon" />-->
+        <!--</TableRow>-->
+
+    </TableLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="@dimen/margin_bottom_delet_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/keyboard"
+        app:layout_constraintVertical_bias="1">
+
+        <TextView
+            android:id="@+id/forget_text_view"
+            android:layout_width="wrap_content"
+            android:visibility="visible"
+            android:layout_height="140dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:text="@string/forget"
+            app:layout_constraintHorizontal_bias="0.15"
+            android:textSize="@dimen/text_size_normal"
+            android:textColor="@color/colorWhite"
+            style="@style/keyboard_number_button"/>
+
+        <TextView
+            android:id="@+id/t9_key_0"
+            android:layout_width="wrap_content"
+            style="@style/keyboard_number_button"
+            android:layout_height="160dp"
+            android:text="0"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/text_size_biggest"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+        <ImageView
+            android:id="@+id/t9_key_backspace"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.85"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.8"
+            android:background="@drawable/delete_number_icon"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

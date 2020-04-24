@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true">
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/client_data_container_scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/linear_layout_contacts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="187dp"
+                android:layout_height="51dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/margin_top_text_phone"
+                android:fontFamily="@font/noto_sans_light"
+                android:gravity="center"
+                android:text="@string/phoneNumber"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/text_size_big" />
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/lottie_animation_splash"
+                android:layout_width="126dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:lottie_fileName="first_step_coin.json" />
+
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_top_text_phone"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/country_code_text_view"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/shape_phone_number_edittext"
+                    android:gravity="center"
+                    android:maxWidth="100dp"
+                    android:maxLength="5"
+                    android:minWidth="50dp"
+                    android:textSize="18sp"
+                    android:fontFamily="@font/noto_sans_regular"
+                    android:onClick="openCountrySearchFragment"
+                    android:textColor="@color/colorWhite"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.1"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <EditText
+                    android:id="@+id/edit_text_phone_number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_gravity="start"
+                    android:background="@drawable/shape_phone_number_edittext"
+                    android:gravity="center"
+                    android:hint="@string/_00_00_00"
+                    android:inputType="number"
+                    android:fontFamily="@font/noto_sans_regular"
+                    android:maxWidth="220dp"
+                    android:maxLength="15"
+                    android:minWidth="150dp"
+                    android:minHeight="100dp"
+                    android:paddingEnd="2dp"
+                    android:paddingRight="2dp"
+                    android:singleLine="true"
+                    android:textColorHint="@color/colorWhite"
+                    android:textSize="18sp"
+
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.9"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraint_super_system"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/margin_top_phone_code"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.95">
+
+        <ImageButton
+            android:id="@+id/goToInputCode"
+            android:layout_width="@dimen/next_button_size"
+            android:layout_height="60dp"
+            android:background="@drawable/button_skip"
+            android:onClick="goToInputPhoneCode"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/noto_sans_regular"
+            android:text="@string/skip"
+            android:textColor="@color/colorWhite"
+            android:textSize="22sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.501"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.52" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,78 @@
+<resources>
+    <!-- Example customization of dimensions originally defined in res/values/dimens.xml
+         (such as screen margins) for screens with more than 820dp of available width. This
+         would include 7" and 10" devices in landscape (~960dp and ~1280dp respectively). -->
+    <!--Image View-->
+    <dimen name="image_view_size_smallest">6dp</dimen>
+    <dimen name="image_view_size_smaller">10dp</dimen>
+    <dimen name="image_view_size_small">18dp</dimen>
+    <dimen name="image_view_size_normal_half">12.5dp</dimen>
+    <dimen name="image_view_size_normal">25dp</dimen>
+    <dimen name="image_view_size_big">42dp</dimen>
+    <dimen name="image_view_size_bigger">48dp</dimen>
+    <dimen name="image_view_size_biggest">105dp</dimen>
+
+    <!--Text size-->
+    <dimen name="text_size_smallest">4sp</dimen>
+    <dimen name="text_size_smaller">6sp</dimen>
+    <dimen name="text_size_small">10sp</dimen>
+    <dimen name="text_size_normal">12sp</dimen>
+    <dimen name="text_size_big">16sp</dimen>
+    <dimen name="text_size_bigger">23sp</dimen>
+    <dimen name="text_size_biggest">28sp</dimen>
+    <dimen name="text_size_large">53sp</dimen>
+
+    <!--Image size-->
+    <item name="image_size_smaller" format="float" type="dimen">30</item>
+    <item name="image_size_small" format="float" type="dimen">100</item>
+    <item name="image_size_normal" format="float" type="dimen">250</item>
+    <item name="image_size_big" format="float" type="dimen">400</item>
+    <item name="image_size_bigger" format="float" type="dimen">700</item>
+
+    <dimen name="cover_photo_height">250dp</dimen>
+    <dimen name="country_name_size">15sp</dimen>
+
+
+    <dimen name="main_categories_photo_height">100dp</dimen>
+    <dimen name="menu_item_margin20">10dp</dimen>
+    <dimen name="menu_item_margin10">5dp</dimen>
+    <dimen name="transferring_text_size">20dp</dimen>
+    <dimen name="edit_text_search">310dp</dimen>
+    <dimen name="next_button_size">280dp</dimen>
+    <dimen name="margin_top_text_phone">30dp</dimen>
+    <dimen name="margin_top_phone_code">25dp</dimen>
+
+    <dimen name="vertical_bias_input_code">110dp</dimen>
+
+    <dimen name="margin_bottom_delet_button">5dp</dimen>
+    <dimen name="underline_width">30dp</dimen>
+    <dimen name="margin_top_frame_layout">50dp</dimen>
+
+
+
+    <dimen name="margin_top_text_exchange">30dp</dimen>
+    <dimen name="margin_top_scroll_exchange">60dp</dimen>
+    <dimen name="margin_top_exchange">22dp</dimen>
+    <dimen name="details_activity_heigh">270dp</dimen>
+    <dimen name="details_activity_oval_width">130dp</dimen>
+    <dimen name="height_devider_details">60dp</dimen>
+    <dimen name="oval_size_details">40dp</dimen>
+    <dimen name="oval_layout_size">70dp</dimen>
+
+    <dimen name="statement_wallet_card_background_size">150dp</dimen>
+    <dimen name="statement_from_to_constraint">130dp</dimen>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</resources>

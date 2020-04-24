@@ -1,0 +1,67 @@
+<resources>
+    <!-- Example customization of dimensions originally defined in res/values/dimens.xml
+         (such as screen margins) for screens with more than 820dp of available width. This
+         would include 7" and 10" devices in landscape (~960dp and ~1280dp respectively). -->
+    <!--Image View-->
+    <dimen name="image_view_size_smallest">17dp</dimen>
+    <dimen name="image_view_size_smaller">24dp</dimen>
+    <dimen name="image_view_size_small">28dp</dimen>
+    <dimen name="image_view_size_normal_half">20dp</dimen>
+    <dimen name="image_view_size_normal">40dp</dimen>
+    <dimen name="image_view_size_big">68dp</dimen>
+    <dimen name="image_view_size_bigger">110dp</dimen>
+    <dimen name="image_view_size_biggest">200dp</dimen>
+
+    <!--Text size-->
+    <dimen name="text_size_smallest">10sp</dimen>
+    <dimen name="text_size_smaller">13sp</dimen>
+    <dimen name="text_size_small">16sp</dimen>
+    <dimen name="text_size_normal">20sp</dimen>
+    <dimen name="text_size_big">26sp</dimen>
+    <dimen name="text_size_bigger">31sp</dimen>
+    <dimen name="text_size_biggest">37sp</dimen>
+    <dimen name="text_size_large">85sp</dimen>
+
+    <!--Image size-->
+    <item name="image_size_smaller" format="float" type="dimen">100</item>
+    <item name="image_size_small" format="float" type="dimen">250</item>
+    <item name="image_size_normal" format="float" type="dimen">500</item>
+    <item name="image_size_big" format="float" type="dimen">800</item>
+    <item name="image_size_bigger" format="float" type="dimen">1200</item>
+
+    <dimen name="cover_photo_height">330dp</dimen>
+
+    <dimen name="main_categories_photo_height">180dp</dimen>
+    <dimen name="menu_item_margin20">20dp</dimen>
+    <dimen name="menu_item_margin10">10dp</dimen>
+    <dimen name="edit_text_search">380dp</dimen>
+    <dimen name="country_name_size">22sp</dimen>
+    <dimen name="next_button_size">350dp</dimen>
+    <dimen name="margin_top_text_phone">80dp</dimen>
+    <dimen name="margin_top_phone_code">60dp</dimen>
+    <dimen name="vertical_bias_input_code">150dp</dimen>
+    <dimen name="underline_width">55dp</dimen>
+    <dimen name="margin_top_frame_layout">120dp</dimen>
+
+    <dimen name="margin_top_text_exchange">120dp</dimen>
+    <dimen name="margin_top_scroll_exchange">150dp</dimen>
+    <dimen name="margin_top_exchange">50dp</dimen>
+    <dimen name="details_activity_heigh">500dp</dimen>
+    <dimen name="details_activity_oval_width">200dp</dimen>
+    <dimen name="oval_size_details">100dp</dimen>
+    <dimen name="statement_wallet_card_background_size">220dp</dimen>
+    <dimen name="statement_from_to_constraint">210dp</dimen>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</resources>
